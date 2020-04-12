@@ -8,7 +8,17 @@
 </head>
 <body>
 <h1>Contact details</h1>
-<p>Number: <i>91121872</i></p>
-<p>Email: <i>muddyhippo@hotmail.com</i></p>
+
+<p>Email: <strong> muddyhippo@hotmail.com</strong></p>
+<form action="mailto:muddyhippo@hotmail.com" method="post" enctype="text/plain">
+  <label>Your Name:</label><br>
+  <input type="text" name="Name" value=""><br>
+  <label>Your Email:</label><br>
+  <input type="email" name="Email" value=""><br>
+  <label>Message:</label><br>
+  <textarea name="Message" row="8" cols="88" value=""></textarea>
+  <input type="submit" value="Send!">
+</form>
+
 </body>
 </html>
